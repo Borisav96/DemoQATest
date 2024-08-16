@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll" parallel="none">
+    <test name="DragDropTest" >
+        <classes>
+            <class name="TEST.DragDropTest" />
+        </classes>
+    </test>
+    <test name="ToolTipsTest" >
+        <classes>
+            <class name="TEST.ToolTipsTest" />
+        </classes>
+    </test>
+</suite>
